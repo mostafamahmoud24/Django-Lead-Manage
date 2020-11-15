@@ -6,7 +6,7 @@ export default function Dashboard() {
   return (
     <div>
       <Form />
-      <leads />
+      <Leads />
     </div>
   );
 }

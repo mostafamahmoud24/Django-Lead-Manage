@@ -1,3 +1,5 @@
-import { combinedReducers } from "redux";
+import { combineReducers } from "redux";
+import leads from "./leads";
+import errors from "./errors";
 
-export default combinedReducers({});
+export default combineReducers({ leads, errors });
